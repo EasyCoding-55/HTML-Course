@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Michael Karimi" />
+    <meta
+      name="description"
+      content="HTML tutorials for beginners to know all they need to get started with developing web sites and applications."
+    />
+    <title>HTML Tutorials-08</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h2 class="h2-1">HTML Tables</h2>
+
+    <table>
+      <caption>
+        This is a basic table with header cells in the top row and Caption
+        element
+      </caption>
+      <thead>
+        <tr>
+          <th scope="col">The first column</th>
+          <th scope="col">The second column</th>
+          <th scope="col">The third column</th>
+          <th scope="col">The fourth column</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td rowspan="2">The first cell</td>
+          <td>The second cell</td>
+          <td>The third cell</td>
+          <td>The fourth cell</td>
+        </tr>
+        <tr>
+          <!-- <td>The first cell</td> -->
+          <td>The second cell</td>
+          <td>The third cell</td>
+          <td>The fourth cell</td>
+        </tr>
+        <tr>
+          <td>The first cell</td>
+          <td>The second cell</td>
+          <td>The third cell</td>
+          <td>The fourth cell</td>
+        </tr>
+        <tr>
+          <td colspan="2">The first cell</td>
+          <td>The second cell</td>
+          <td>The third cell</td>
+          <!-- <td>The fourth cell</td> -->
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td colspan="4">The table foot element</td>
+        </tr>
+      </tfoot>
+    </table>
+
+    <h2 class="h2-2">
+      Table with the top row, an offset column of header cells, and Caption
+      element
+    </h2>
+    <table class="table-2">
+      <caption>
+        A summery of weekly expenses for an example company.
+      </caption>
+      <thead>
+        <tr>
+          <th scope="col"><abbr title="Identification Number">ID</abbr></th>
+          <th scope="col">Expenses</th>
+          <th scope="col">Week One</th>
+          <th scope="col">Week Two</th>
+          <th scope="col">Week Three</th>
+          <th scope="col">Week Four</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>210</td>
+          <th scope="row">Stationery</th>
+          <td>$349.60</td>
+          <td>$174.11</td>
+          <td>$341.00</td>
+          <td>$209.20</td>
+        </tr>
+        <tr>
+          <td>115</td>
+          <th scope="row">Coffee and pastry</th>
+          <td>$189.10</td>
+          <td>$210.11</td>
+          <td>$190.24</td>
+          <td>$219.20</td>
+        </tr>
+        <tr>
+          <td>250</td>
+          <th scope="row">Cleaning Services</th>
+          <td>$300.00</td>
+          <td>$300.00</td>
+          <td>$300.00</td>
+          <td>$300.00</td>
+        </tr>
+        <tr>
+          <td>311</td>
+          <th scope="row">Temporary Help</th>
+          <td>$350.00</td>
+          <td>$400.00</td>
+          <td>$400.00</td>
+          <td>$300.00</td>
+        </tr>
+        <tr>
+          <td>420</td>
+          <th scope="row">Miscellaneous</th>
+          <td>$150.00</td>
+          <td>$235.30</td>
+          <td>$311.18</td>
+          <td>$190.10</td>
+        </tr>
+        <tr>
+          <th scope="row" colspan="2">Weekly Total</th>
+          <td>$1338.70</td>
+          <td>$1319.52</td>
+          <td>$1542.42</td>
+          <td>$1318.50</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <th colspan="2">Total</th>
+          <td colspan="4">$5519.14</td>
+        </tr>
+      </tfoot>
+    </table>
+  </body>
+</html>

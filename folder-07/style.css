@@ -1,0 +1,39 @@
+body {
+  padding: 1.5rem;
+  background: #ebf4ff;
+  line-height: 1.6;
+  background-image: none;
+}
+
+header {
+  border-bottom: solid 4px #c11313;
+}
+
+h1 {
+  text-align: center;
+  color: #c11313;
+
+}
+
+footer {
+  position: relative;
+  border-top: solid 4px #c11313;
+  height: 40px;
+}
+
+.footer-div-1 {
+  position: absolute;
+  font-size: x-small;
+  font-weight: 700;
+  color: #c11313;
+  bottom: 0;
+  left: 0;
+}
+
+a {
+  position: absolute;
+  color: #c11313;
+  font-weight: bold;
+  bottom: 0;
+  right: 0;
+}

@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --color-gray: #c4bcbc;
+  --color-blue: #4db5ff;
+  --color-green-1: #05a55a;
+  --color-lighter-black: #0a0a0a;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background: var(--color-lighter-black);
+  color: var(--color-gray);
+  line-height: 1.7;
+  padding: 1rem;
+}
+
+.h1-1,
+.h4-2 {
+  color: var(--color-blue);
+  text-align: center;
+}
+
+.h4-1 {
+  color: var(--color-blue);
+  margin-bottom: 0%;
+}
+
+.h4-2 {
+  margin-bottom: 4px;
+}
+
+.p-address {
+  margin-top: 0;
+  margin-bottom: 0%;
+  color: var(--color-blue);
+}
+
+.p-details,
+.q-2 {
+  color: var(--color-blue);
+}
+
+details {
+  color: var(--color-green-1);
+  padding-top: 10px;
+}
+
+aside {
+  width: 40%;
+  padding-left: 0.5rem;
+  margin-left: 0.5rem;
+  float: right;
+  box-shadow: inset 5px 0 5px -5px #217ba8;
+  font-style: italic;
+  color: var(--color-blue-1);
+}
+
+.aside-h4 {
+  margin: 0%;
+  color: var(--color-green-1);
+}
+
+aside>p {
+  margin: 0.5rem;
+}
+
+p {
+  font-family: 'Fira Sans', sans-serif;
+}
+
+section {
+  padding-bottom: 10px;
+}
+
+.p-1 {
+  color: var(--color-blue);
+}
+
+.h4-3 {
+  color: var(--color-blue);
+  margin-top: 40px
+}
+
+.entity {
+  text-align: center;
+}
+
+.sup-sub {
+  text-align: center;
+}
+
+.p-pre {
+  color: var(--color-blue);
+  margin-top: 15px;
+  margin-bottom: 0%;
+  text-align: center;
+}
+
+pre {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0%;
+}
+
+.p-mark {
+  text-align: center;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.address {
+  padding-top: 0;
+  text-align: center;
+}

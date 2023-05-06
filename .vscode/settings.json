@@ -1,0 +1,11 @@
+{
+  "liveServer.settings.port": 5502,
+  "editor.inlineSuggest.enabled": true,
+  "editor.quickSuggestions": {
+    "other": "off"
+  },
+  "emmet.triggerExpansionOnTab": true,
+  "emmet.showSuggestionsAsSnippets": true,
+  "emmet.useInlineCompletions": true,
+  "emmet.showExpandedAbbreviation": "never"
+}

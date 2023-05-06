@@ -1,0 +1,44 @@
+  * {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+  }
+
+  :root {
+    --color-gray-1: #9daebe;
+    --color-blue-100: #1436b2;
+    --color-gray-2: #6c839a;
+
+  }
+
+  body {
+    padding: 1rem;
+    background: #9daebe;
+    line-height: 1.6;
+    background-image: none;
+  }
+
+  h1 {
+    border-bottom: double 6px;
+    padding-bottom: 15px;
+    text-align: center;
+    color: #c11313;
+
+  }
+
+  footer {
+    border-top: solid 4px;
+    color: #c11313;
+    text-align: center;
+    font-weight: 700;
+    font-size: 2em;
+  }
+
+  p {
+    margin: 1rem;
+  }
+
+  span {
+    display: inline-block;
+    margin-top: 16px;
+  }

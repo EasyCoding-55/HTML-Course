@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+:root {
+  --color-white: #fff;
+  --color-blue-1: #4db5ff;
+  --color-hotpink: #c927df;
+  --color-red: #c11313;
+  --color-navy: #032a5a;
+  --color-black: #000;
+}
+
+body {
+  padding: 1.5rem;
+  font-family: 'Roboto', sans-serif;
+  background: var(--color-navy);
+  color: var(--color-white);
+  line-height: 1.6;
+  background-image: none;
+}
+
+.header-border {
+  border: 6px groove var(--color-red);
+  border-radius: 5px;
+  margin-bottom: 3px;
+}
+
+h1 {
+  margin: 0%;
+  text-align: center;
+}
+
+.nav-a {
+  color: var(--color-blue-1);
+}
+
+.header-nav {
+  height: 40px;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 6px 0px 10px;
+  font-weight: 700;
+}
+
+.img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+figcaption {
+  text-align: center;
+  padding-bottom: 12px;
+}
+
+.btn {
+  border-radius: 15px;
+  height: 35px;
+  background-color: var(--color-white);
+  color: var(--color-hotpink);
+  font-weight: bold;
+  font-size: medium;
+  cursor: pointer;
+  padding: 0 10px;
+  margin-bottom: 20px;
+}
+
+.btn:hover {
+  color: var(--color-black);
+  background: var(--color-blue-1);
+}
+
+#div-1 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: fit-content;
+  border: 2px solid var(--color-red);
+  border-radius: 5px;
+  padding-top: 15px;
+}
+
+h3 {
+  padding: 0%20px 10px;
+}
+
+h2,
+#div-1 {
+  text-align: center;
+  padding-top: 15px;
+
+}
+
+.h4-2 {
+  text-align: center;
+  padding-bottom: 5px;
+}
+
+p {
+  padding-bottom: 15px;
+}
+
+article {
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+footer {
+  position: relative;
+  height: 40px;
+  border-top: 2px solid var(--color-red);
+}
+
+.footer-div-1 {
+  position: absolute;
+  font-size: x-small;
+  bottom: 10px;
+  left: 10px;
+}
+
+.footer-div-a {
+  position: absolute;
+  color: var(--color-white);
+  bottom: 8px;
+  right: 10px;
+}
