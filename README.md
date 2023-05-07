@@ -25,3 +25,6 @@ https://developer.mozilla.org/en-US/docs/Web/Text_fragments
 
 https://html.spec.whatwg.org/multipage/named-characters.html#named-character-references
 
+Images are from:
+
+https://www.pexels.com/
