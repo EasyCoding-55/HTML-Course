@@ -2,7 +2,7 @@ HTML for Beginners Full Course
 
 See this course on YouTube:
 
-https://www.youtube.com/@easycoding55
+https://youtu.be/K-8U94CH7g4
 
 Web Dev Tools:
 
