@@ -1,6 +1,6 @@
 HTML for Beginners Full Course
 
-See this course on YouTube:
+Watch this course on YouTube:
 
 https://youtu.be/K-8U94CH7g4
 
