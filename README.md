@@ -1,5 +1,7 @@
 HTML for Beginners Full Course
 
+See this course on YouTube https://www.youtube.com/@easycoding55
+
 Web Dev Tools:
 
 https://code.visualstudio.com/download
